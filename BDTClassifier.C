@@ -11,7 +11,7 @@
 #include <ctime>
 long _ts;
 
-bool BDTClassifier_Function(bool IDvar = false, bool MoreVar = true, bool IDonly= true ){
+bool BDTClassifier_Function(){
   
   
   //**********************************************
@@ -155,8 +155,6 @@ bool BDTClassifier_Function(bool IDvar = false, bool MoreVar = true, bool IDonly
 
 //Main Function
 void BDTClassifier(bool _IDvar = true, bool _MoreVar = false, bool _IDonly= false ){
-  bool res = BDTClassifier_Function(_IDvar, _MoreVar, _IDonly);
+  bool res = BDTClassifier_Function();
   if(!res)std::system(Form("rm ./.past_source/_BDTClassifier_%ld.old",(long) _ts));
-//  BDTClassifier_Function(true, false, false);
-//  BDTClassifier_Function(false, false, false);
 }
