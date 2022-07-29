@@ -15,7 +15,7 @@ You need to define
 2) Training variables 
 3) Spectators (not training variables)
 4) Pre-selections 
-5) # of trees, # of events to train, Max Depth, Min Node size, Boost Type, Boost Beta, Seperation type, Pruning, RandomTrees, nCuts, etc. 
+5) number of trees, number of events to train, Max Depth, Min Node size, Boost Type, Boost Beta, Seperation type, Pruning, RandomTrees, nCuts, etc. 
 -- mostly just start with the default setting 
 
 # step 3 : BDT application
